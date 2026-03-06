@@ -1,5 +1,4 @@
-import React,{useState,useEffect} from "react";
-import "./App.css";
+const { useState, useEffect } = React;
 
 function App(){
 
@@ -134,9 +133,10 @@ Yearly Expense: ₹{yearlyTotal}
 <button
 className="deleteBtn"
 onClick={()=>deleteSubscription(index)}
+
 >
-Delete
-</button>
+
+Delete </button>
 
 </div>
 
@@ -149,5 +149,3 @@ Delete
 );
 
 }
-
-export default App;
